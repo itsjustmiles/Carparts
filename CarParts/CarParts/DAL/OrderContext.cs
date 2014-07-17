@@ -11,9 +11,9 @@ namespace CarParts.DAL
         {
         }
 
-        public DbSet<Customers> Students { get; set; }
-        public DbSet<Order> Enrollments { get; set; }
-        public DbSet<Parts> Courses { get; set; }
+        public DbSet<Customers> Customers { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<Parts> Parts { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

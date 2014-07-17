@@ -28,5 +28,7 @@ namespace CarParts.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<CarParts.Models.Customers> Customers { get; set; }
     }
 }

@@ -8,7 +8,7 @@ namespace CarParts.Models
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int PartID { get; set; }
         public string Title { get; set; }
-        public int Price { get; set; }
+        public double Price { get; set; }
 
         public virtual ICollection<Order> Order { get; set; }
     }
